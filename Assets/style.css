@@ -1,0 +1,100 @@
+/* GLobal selectors */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    color: aqua;
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;        
+}
+
+header {
+    background-color: navy;
+    padding: 1em 0em;
+}
+
+#logo {
+    background-color: aqua;
+    color: navy;
+    display: inline-block;
+    font-size: 350%;    
+    padding: .1em .1em .1em .7em;
+}
+
+.top-menu {
+    padding-top: 1.5em;
+    margin-right: 1.5em;
+    float: right;
+    font-size: 125%;    
+}
+
+
+
+.top-menu ul li {
+    display: inline-block;
+    margin-left: .5em;    
+    border-bottom: .2em solid aqua;
+    padding: 0em .5em .25em;
+}
+
+.banner {
+    position: relative;
+    font-size: 200%;
+}
+
+.banner img {
+    height: 5em;
+    width: 100%;
+    margin-bottom: 0em;
+    background-size: cover;
+    background-position: center;
+}
+
+.banner h3 {
+    position: absolute;
+    bottom: 1em;
+    right: 1.5em;
+    color: navy;
+    background-color: aqua;
+    padding: .1em;
+}
+
+main {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: stretch;
+}
+
+.label-left-content-right {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.section-title {
+    flex: 1;
+}
+
+.project {
+    flex: 4;
+}
+
+.project-link {
+    position: relative;
+}
+
+.project img {
+    height: 10em;
+    width: 20em;
+}
+
+img .project-description {
+    position: absolute;
+    bottom: 5em;
+    left 1.5em;
+}
