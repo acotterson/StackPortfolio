@@ -6,7 +6,6 @@
 }
 
 a {
-    color: aqua;
     text-decoration: none;
 }
 
@@ -15,13 +14,13 @@ ul {
 }
 
 header {
-    background-color: navy;
+    background-color: rgb(37, 37, 57);
     padding: 1em 0em;
 }
 
 #logo {
-    background-color: aqua;
-    color: navy;
+    background-color: rgb(122, 225, 213);
+    color: rgb(37, 37, 57);
     display: inline-block;
     font-size: 350%;    
     padding: .1em .1em .1em .7em;
@@ -34,13 +33,15 @@ header {
     font-size: 125%;    
 }
 
-
-
-.top-menu ul li {
+.top-menu li {
     display: inline-block;
     margin-left: .5em;    
-    border-bottom: .2em solid aqua;
+    border-bottom: .2em solid rgb(122, 225, 213);
     padding: 0em .5em .25em;
+}
+
+.top-menu a {
+    color: aqua;
 }
 
 .banner {
@@ -60,41 +61,120 @@ header {
     position: absolute;
     bottom: 1em;
     right: 1.5em;
-    color: navy;
-    background-color: aqua;
+    color: rgb(37, 37, 57);
+    background-color: rgb(122, 225, 213);
     padding: .1em;
-}
-
-main {
-    display: flex;
-    flex-flow: row wrap;
-    align-items: stretch;
 }
 
 .label-left-content-right {
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: row wrap;    
+    /* width: 100%; */
+}
+
+.label-left-content-right, .content {
+    margin: 1em 1em 1em 1em;
 }
 
 .section-title {
-    flex: 1;
+    color: rgb(66, 83, 108);
+    flex-basis: 10em;
+    text-align: right;
+    padding-right: 1em;
+    border-right: .1em solid rgb(66, 83, 108);
+
+}
+
+.section-title.h2 {
+    width: 5%;
+}
+
+.content {
+    width: 75%;
+    /* flex-basis: 71em; */
+}
+
+.content-list {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.projects-list {
+    /* justify-content: space-evenly; */
+    gap: 1em 1em;
+    /* position: relative; */
+    /* height: 20%;
+    width: 40%; */
+}
+
+/* .project-link {
+    position: relative;
+} */
+
+.project {
+    /* height: 5em;
+    width: 45%;
+    position: relative; */
+    /* margin: .5em; */
+}
+
+.main-project {
+    /* height: 20em;
+    width: 90%; */
 }
 
 .project {
-    flex: 4;
-}
-
-.project-link {
+    height: 100px;
+    width: 393px;
     position: relative;
+    border: .2em solid rgb(122, 225, 213);
+    /* margin: .5em; */
 }
 
 .project img {
-    height: 10em;
-    width: 20em;
+    height: 100%;
+    width: 100%;
+    /* height: 20em;
+    width: 29em; */
 }
 
-img .project-description {
-    position: absolute;
-    bottom: 5em;
-    left 1.5em;
+.main-project {
+    height: 400px;
+    width: 800px;
+}
+
+.project-description {
+    position:absolute;
+    bottom: 1em;
+    color: black;
+    background-color: rgb(122, 225, 213);
+    z-index: 100;
+}
+
+.project-description-content {
+    margin: 5% 10%;
+    text-align: left;
+}
+
+p.project-description-content {
+    font-size: small;
+    padding-right: 1em;
+}
+
+.my-links-list {
+    justify-content: space-around;
+}
+
+.my-links-list li {    
+    border-bottom: .2em solid rgb(66, 83, 108);
+    padding: 0em .5em .25em;
+}
+
+.my-links-list a {
+    color: rgb(37, 37, 57);    
+}
+
+
+@media screen and (max-width: 1118px) {
+    .project {width: 100%;}
 }
