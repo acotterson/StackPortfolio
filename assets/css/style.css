@@ -160,7 +160,7 @@ p.project-description-content {
 }
 /* main page end */
 
-/* responsive queries */
+/* responsive queries start */
 @media screen and (max-width: 700px) {
     .my-links-list {display: flex; flex-flow: column wrap;}
     .my-links-list li {border: none; text-decoration: underline;}
@@ -168,13 +168,16 @@ p.project-description-content {
 
 @media screen and (max-width: 824px) {
     .top-menu {float: none;}
+    * {
+        text-align: center;
+    }
+    
 }
 
-@media screen and (max-width: 1136px) {
+@media screen and (max-width: 1119px) {
     .project {width: 100%;}
     * {
         justify-content: center; 
-        text-align: center;
     }
     .section-title {text-align: center; border: none; padding: 0; text-decoration: underline;}
 }
@@ -187,3 +190,4 @@ p.project-description-content {
     .extra-list {flex-flow: column wrap;}
     .main-project {height: 448px;}
 }
+/* responsive queries end */
