@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,108 +8,122 @@
     <title>Document</title>
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
+
 <body>
+    <!-- title and nav links -->
     <header>
         <h1 id="logo">Alec Otterson</h1>
         <nav class="top-menu">
             <ul>
                 <li>
-                    <a href="">About Me</a>
+                    <a href="#intro">About Me</a>
                 </li>
                 <li>
-                    <a href="">Work</a>
+                    <a href="#work">Work</a>
                 </li>
                 <li>
-                    <a href="">Contact Me</a>
+                    <a href="#contact">Contact Me</a>
                 </li>
                 <li>
-                    <a href="">Resume</a>
+                    <a href="./assets/media/Alec Otterson Resume Tech.docx" download>Resume</a>
                 </li>
             </ul>
         </nav>
     </header>
+    <!-- nice picture -->
     <section class="banner">
         <img src="./assets/media/VinaColors.JPG" alt="Banner Image">
         <h3 class="subtitle">Cool subtitle here!</h3>
     </section>
+    <!-- projects/work to show off -->
     <main>
         <section id="intro" class="label-left-content-right">
             <h2 class="section-title">About Me</h2>
             <section class="content">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam eum perspiciatis praesentium at harum dolore ea reiciendis maiores, vitae, minus assumenda ut dolores architecto tenetur modi sit. Nihil, nostrum enim!</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi ratione, itaque magnam, recusandae reprehenderit nisi ab, nulla mollitia quo laboriosam tempora distinctio hic quibusdam ipsam placeat! Et incidunt temporibus veritatis?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam eum perspiciatis praesentium at harum
+                    dolore ea reiciendis maiores, vitae, minus assumenda ut dolores architecto tenetur modi sit. Nihil,
+                    nostrum enim!</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi ratione, itaque magnam, recusandae
+                    reprehenderit nisi ab, nulla mollitia quo laboriosam tempora distinctio hic quibusdam ipsam placeat!
+                    Et incidunt temporibus veritatis?</p>
             </section>
         </section>
-        <section class="label-left-content-right">
+        <section id="work" class="label-left-content-right">
             <h2 class="section-title">Work</h2>
             <ul class="content-list projects-list content">
-                <li class="project main-project">
-                    <a href="" class="project-link">
-                        <img src="./assets/media/IMG_0004.jpg" alt="Project 1"></img>
-                        <div class="project-description">
-                            <h3 class="project-description-content">Project 1</h3>
-                            <p class="project-description-content">HTML/Javascript</p>
-                        </div>
-                    </a>
-                </li>
-                <li class="project">
-                    <a href="" class="project-link">
-                        <img src="./assets/media/IMG_0031.jpg" alt="Project 2">
-                        <div class="project-description">
-                            <h3 class="project-description-content">Project 1</h3>
-                            <p class="project-description-content">HTML/Javascript</p>
-                        </div>
-                    </a>
-                </li>
-                <li class="project">
-                    <a href="" class="project-link">
-                        <img src="./assets/media/IMG_0122.jpg" alt="Project 3">
-                        <div class="project-description">
-                            <h3 class="project-description-content">Project 1</h3>
-                            <p class="project-description-content">HTML/Javascript</p>
-                        </div>
-                    </a>
-                </li>
-                <li class="project">
-                    <a href="" class="project-link">
-                        <img src="./assets/media/IMG_0233.JPG" alt="Project 4">
-                        <div class="project-description">
-                            <h3 class="project-description-content">Project 1</h3>
-                            <p class="project-description-content">HTML/Javascript</p>
-                        </div>
-                    </a>
-                </li>
-                <li class="project">
-                    <a href="" class="project-link">
-                        <img src="./assets/media/IMG_0300 (2).jpg" alt="Project 5"></img>
-                        <div class="project-description">
-                            <h3 class="project-description-content">Project 1</h3>
-                            <p class="project-description-content">HTML/Javascript</p>
-                        </div>
-                    </a>
-                </li>
+                <div class='main-list'>
+                    <li class="project main-project">
+                        <a href="https://acorbridg.github.io/Project1/" class="project-link">
+                            <img src="./assets/media/quickByte.png" alt="Quick Byte Screenshot"></img>
+                            <div class="project-description">
+                                <h3 class="project-description-content">Quick Byte</h3>
+                                <p class="project-description-content">HTML/Javascript/CSS</p>
+                            </div>
+                        </a>
+                    </li>
+                </div>
+                <div class='extra-list'>
+                    <li class="project">
+                        <a href="" class="project-link">
+                            <img src="./assets/media/passGen.png" alt="Password Generator Screenshot">
+                            <div class="project-description">
+                                <h3 class="project-description-content">Password Generator</h3>
+                                <p class="project-description-content">HTML/Javascript</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="project">
+                        <a href="" class="project-link">
+                            <img src="./assets/media/IMG_0122.jpg" alt="Project 3">
+                            <div class="project-description">
+                                <h3 class="project-description-content">Project 3</h3>
+                                <p class="project-description-content">HTML/Javascript</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="project">
+                        <a href="" class="project-link">
+                            <img src="./assets/media/IMG_0233.JPG" alt="Project 4">
+                            <div class="project-description">
+                                <h3 class="project-description-content">Project 4</h3>
+                                <p class="project-description-content">HTML/Javascript</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="project">
+                        <a href="" class="project-link">
+                            <img src="./assets/media/IMG_0300 (2).jpg" alt="Project 5"></img>
+                            <div class="project-description">
+                                <h3 class="project-description-content">Project 5</h3>
+                                <p class="project-description-content">HTML/Javascript</p>
+                            </div>
+                        </a>
+                    </li>
+                </div>
             </ul>
         </section>
     </main>
-    <footer class="label-left-content-right">
+    <!-- contact information -->
+    <footer id="contact" class="label-left-content-right">
         <h2 class="section-title">Contact Me</h2>
         <ul class="content content-list my-links-list">
             <li class="my-links">
                 <a href="">480.703.7628</a>
             </li>
             <li class="my-links">
-                <a href="">acotterson@gmail.com</a>
+                <a href="mailto:acotterson@gmail.com">acotterson@gmail.com</a>
             </li>
             <li class="my-links">
-                <a href="">GitHub</a>
+                <a href="https://github.com/acotterson">GitHub</a>
             </li>
             <li class="my-links">
-                <a href="">Twitter</a>
+                <a href="https://twitter.com/">Twitter</a>
             </li>
             <li class="my-links">
-                <a href="">Spotify</a>
-            </li>                
+                <a href="https://open.spotify.com/user/12621160?si=41a68603522e4bcc">Spotify</a>
+            </li>
         </ul>
     </footer>
 </body>
+
 </html>

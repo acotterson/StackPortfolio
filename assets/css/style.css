@@ -13,6 +13,7 @@ ul {
     list-style-type: none;        
 }
 
+/* header start */
 header {
     background-color: rgb(37, 37, 57);
     padding: 1em 0em;
@@ -43,7 +44,9 @@ header {
 .top-menu a {
     color: aqua;
 }
+/* header end */
 
+/* banner start */
 .banner {
     position: relative;
     font-size: 200%;
@@ -65,11 +68,12 @@ header {
     background-color: rgb(122, 225, 213);
     padding: .1em;
 }
+/* banner end */
 
+/* main page start */
 .label-left-content-right {
     display: flex;
-    flex-flow: row wrap;    
-    /* width: 100%; */
+    flex-flow: row wrap;
 }
 
 .label-left-content-right, .content {
@@ -91,7 +95,6 @@ header {
 
 .content {
     width: 75%;
-    /* flex-basis: 71em; */
 }
 
 .content-list {
@@ -99,28 +102,8 @@ header {
     flex-flow: row wrap;
 }
 
-.projects-list {
-    /* justify-content: space-evenly; */
+.projects-list, .extra-list {
     gap: 1em 1em;
-    /* position: relative; */
-    /* height: 20%;
-    width: 40%; */
-}
-
-/* .project-link {
-    position: relative;
-} */
-
-.project {
-    /* height: 5em;
-    width: 45%;
-    position: relative; */
-    /* margin: .5em; */
-}
-
-.main-project {
-    /* height: 20em;
-    width: 90%; */
 }
 
 .project {
@@ -128,14 +111,11 @@ header {
     width: 393px;
     position: relative;
     border: .2em solid rgb(122, 225, 213);
-    /* margin: .5em; */
 }
 
 .project img {
     height: 100%;
     width: 100%;
-    /* height: 20em;
-    width: 29em; */
 }
 
 .main-project {
@@ -152,13 +132,13 @@ header {
 }
 
 .project-description-content {
-    margin: 5% 10%;
+    padding: 1% 5%;
+    width: 10em;
     text-align: left;
 }
 
 p.project-description-content {
     font-size: small;
-    padding-right: 1em;
 }
 
 .my-links-list {
@@ -174,7 +154,36 @@ p.project-description-content {
     color: rgb(37, 37, 57);    
 }
 
+.extra-list {
+    display: flex;
+    flex-flow: row wrap;
+}
+/* main page end */
 
-@media screen and (max-width: 1118px) {
+/* responsive queries */
+@media screen and (max-width: 700px) {
+    .my-links-list {display: flex; flex-flow: column wrap;}
+    .my-links-list li {border: none; text-decoration: underline;}
+}
+
+@media screen and (max-width: 824px) {
+    .top-menu {float: none;}
+}
+
+@media screen and (max-width: 1136px) {
     .project {width: 100%;}
+    * {
+        justify-content: center; 
+        text-align: center;
+    }
+    .section-title {text-align: center; border: none; padding: 0; text-decoration: underline;}
+}
+
+@media screen and (min-width: 1400px) {
+    * {justify-content: center;}
+}
+
+@media screen and (min-width: 1661px) {
+    .extra-list {flex-flow: column wrap;}
+    .main-project {height: 448px;}
 }
