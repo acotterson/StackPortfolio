@@ -14,4 +14,4 @@ Link to Deployed Application:
 * [Portfolio](https://acotterson.github.io/StackPortfolio/)
 
 Screenshot:
-![Product Screen Shot](assets/images/screenshot.png)
+![Product Screen Shot](assets/media/screenshot.png)
