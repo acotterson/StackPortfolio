@@ -10,8 +10,7 @@ Use the page to learn about me, to navigate to any of my showcased projects, or 
 
 ## Link and Screenshot
 
-Link to Deployed Application: 
-* [Portfolio](https://acotterson.github.io/StackPortfolio/)
+Link to Deployed Application: https://acotterson.github.io/StackPortfolio/
 
 Screenshot:
 ![Product Screen Shot](assets/media/screenshot.png)
