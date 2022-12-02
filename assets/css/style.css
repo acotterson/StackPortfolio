@@ -9,6 +9,11 @@ a {
     text-decoration: none;
 }
 
+a:visited { 
+ text-decoration: none; 
+ color: black; 
+}
+
 ul {
     list-style-type: none;        
 }
@@ -139,10 +144,6 @@ header {
 
 p.project-description-content {
     font-size: small;
-}
-
-a > p {
-    color: black;
 }
 
 .my-links-list {
