@@ -141,6 +141,10 @@ p.project-description-content {
     font-size: small;
 }
 
+a > p {
+    color: black;
+}
+
 .my-links-list {
     justify-content: space-around;
 }
