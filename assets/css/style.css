@@ -151,15 +151,19 @@ p.project-description-content {
 .tooltip {
   position: relative;
   display: inline-block;
+}
+
+i {
+    
   border-bottom: 1px dotted black;
 }
 
 /* Tooltip text */
 .tooltip .tooltiptext {
   visibility: hidden;
-  width: 120px;
   background-color: black;
   color: #fff;
+  font-size: small;
   text-align: center;
   padding: 5px 0;
   border-radius: 6px;
