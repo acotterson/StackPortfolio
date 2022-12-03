@@ -161,10 +161,11 @@ i {
 /* Tooltip text */
 .tooltip .tooltiptext {
   visibility: hidden;
-  color: black;
+  color: white;
+  background-color: black;
   font-size: small;
   text-align: center;
-  width:10em;
+  width:8em;
   padding: 5px 0;
   border-radius: 6px;
   position: absolute;
